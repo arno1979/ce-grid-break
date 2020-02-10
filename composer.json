@@ -1,0 +1,43 @@
+{
+    "name": "arno1979/ce-grid-break",
+    "type": "contao-bundle",
+    "description": "Content element to add a line break when using pocketgrid columns",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Arno Schumacher",
+            "homepage": "https://github.com/arno1979"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "contao/core-bundle": "~4.4"
+    },
+    "conflict": {
+        "contao/core": "*",
+        "contao/manager-plugin": "<2.0 || >=3.0"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "1.0.x-dev"
+        },
+        "contao-manager-plugin": "Arno1979\\GridBreak\\ContaoManager\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arno1979\\GridBreak\\": "src/"
+        }
+    },
+    "classmap": [
+          "src/Resources/contao/"
+    ],
+    "exclude-from-classmap": [
+          "src/Resources/contao/config/",
+          "src/Resources/contao/dca/",
+          "src/Resources/contao/languages/",
+          "src/Resources/contao/templates/"
+    ]
+}
