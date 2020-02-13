@@ -1,7 +1,7 @@
 {
-    "name": "arno1979/ce-grid-break",
+    "name": "arno1979/contao-ce-grid-break",
     "type": "contao-bundle",
-    "description": "Content element to add a line break when using pocketgrid columns",
+    "description": "Contao content element to add a line break when using pocketgrid columns",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
