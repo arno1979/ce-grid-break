@@ -30,14 +30,5 @@
         "psr-4": {
             "Arno1979\\GridBreak\\": "src/"
         }
-    },
-    "classmap": [
-          "src/Resources/contao/"
-    ],
-    "exclude-from-classmap": [
-          "src/Resources/contao/config/",
-          "src/Resources/contao/dca/",
-          "src/Resources/contao/languages/",
-          "src/Resources/contao/templates/"
-    ]
+    }
 }

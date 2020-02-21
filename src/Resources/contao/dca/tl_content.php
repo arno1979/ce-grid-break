@@ -3,7 +3,7 @@
 /**
  * @copyright  Arno Schumacher 2020
  * @author     Arno Schumacher
- * @package    PdfFilename
+ * @package    GridBreak
  * @license    LGPL-3.0+
  */
 

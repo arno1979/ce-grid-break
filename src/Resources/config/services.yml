@@ -1,0 +1,17 @@
+services:
+    _instanceof:
+        Contao\CoreBundle\Framework\FrameworkAwareInterface:
+            calls:
+                - ["setFramework", ["@contao.framework"]]
+
+        Symfony\Component\DependencyInjection\ContainerAwareInterface:
+            calls:
+                - ["setContainer", ["@service_container"]]
+
+    arno1979.gridbreak.ce.gridbreak:
+      class: Arno1979\GridBreak\ContentElement\GridBreak
+      tags:
+          - 
+            name: contao.content_element
+            category: texts
+
