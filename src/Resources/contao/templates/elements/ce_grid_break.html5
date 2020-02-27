@@ -1,1 +1,7 @@
-<div class="block"></div>
+<?php $this->extend('block_searchable'); ?>
+
+<?php $this->block('content'); ?>
+
+  <div class="block"></div>
+
+<?php $this->endblock(); ?>
